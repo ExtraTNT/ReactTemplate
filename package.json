@@ -1,0 +1,36 @@
+{
+  "name": "website-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/static/index.html"
+  },
+  "keywords": [],
+  "author": "ExtraTNT",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.8",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "parcel": "^2.0.0-beta.2",
+    "postcss": "^8.2.14",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-is": "^17.0.2",
+    "sass": "^1.32.12",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^4.4.5",
+    "grommet": "https://github.com/grommet/grommet/tarball/stable",
+    "grommet-icons": "^4.5.0",
+    "polished": "^4.1.2",
+    "react-helmet": "^6.1.0",
+    "react-jss": "^10.5.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.3.0"
+  }
+}

@@ -1,0 +1,1 @@
+export const clsj = (...args: string[]): string => {return args.join(' ')}
