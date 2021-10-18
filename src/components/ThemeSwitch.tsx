@@ -21,7 +21,7 @@ export const ThemeSwitch = (props) => {
         'arc': arcTheme
     }
     
-    const [ selectedTheme, setSelectedTheme ] = useState<string>(localStorage.getItem('theme') || 'arc')
+    const [ selectedTheme, setSelectedTheme ] = useState<string>(localStorage.getItem('theme') || 'light')
 
     useEffect(() => {
         setThemeContext(themes[selectedTheme])
