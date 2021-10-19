@@ -27,7 +27,7 @@ have fun, and if you have any questions, feel free to contact me (Q & A in this 
 - [ ] login service with tokens for api (coming soon i guess)
 - [ ] date formatter / calculator
 - [ ] competent developer / maintainer (after all it's a template, not a framework, it's not perfect, but it maybe helps someone)
-- [ ] visual beauti
+- [ ] visual beauty
 
 ## Handy stuff
  - install a new nodejs version, because the default one in your (apt) repo does maybe not work
