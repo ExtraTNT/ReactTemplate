@@ -95,6 +95,25 @@ export const useStyles = createUseStyles((theme: Theme) => ({
         margin: "4px 8px",
         height: "200px"
     },
+    popup: {
+        position: "absolute",
+        top: "0",
+        left: "0",
+        right: "0",
+        bottom: "0",
+        overflow: "auto", // set to hidden, if you only have short popups
+        backgroundColor: "rgba(0,0,0,0.2)",
+        zIndex: "1",
+        backdropFilter: "blur(6px)",
+        // firefox needs gfx.webrender.all to be true and also layout.css.backdrop-filter.enabled to be true
+        '& > *': {
+            marginTop: "25%",
+            marginBottom: "25%",
+            marginLeft: "33%",
+            marginRight: "33%",
+            backgroundColor: theme.backgroundColor,
+        }
+    },
     //complex commands
     disabled: {
         color: theme.disabledColor + " !important",
