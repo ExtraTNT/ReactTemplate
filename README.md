@@ -42,6 +42,8 @@ i also try to add those as issues
 - [ ] add stuff for testing stuff
 - [ ] add unicorns
 - [ ] check if gpl is a good license for this project
+## Why?
+Because i think it's stupid to build a website from ground every time you want to build one... this repo is a base with some utilities and components to build a website in a short amount of time.
 ## contribute to this repo
 feel free to contribute to this repo, i'm open to any kind of contribution (issues, pull requests, ideas, ...) if you want, fork this repo and make your own version. the beauty of open source is that it helps the community, and if you have fun to do something, do it...
 ## License
