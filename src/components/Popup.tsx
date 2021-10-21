@@ -12,7 +12,7 @@ export const Popup = ({children, active}: PopupProps) => {
 
     const theme = useTheme()
     const classes = useControlStyles(theme)
-    return <div className={clsj(classes.popup, active? null: classes.invisible)}>
+    return <div className={clsj(classes.popup, classes.blurBackgroundMi, active? null: classes.invisible)}>
         {children}
   </div>
 }

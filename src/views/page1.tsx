@@ -7,7 +7,7 @@ export const Page1 = (props) => {
     const theme = useTheme()
     const classes = useControlStyles({...props, theme})
 
-    const [errorPopupActive, setErrorPopupActive] = React.useState(false)
+    const [errorPopupActive, setErrorPopupActive] = React.useState(true)
     const [errorPopupText, setErrorPopupText] = React.useState('')
     const [errorPopupTitle, setErrorPopupTitle] = React.useState('')
     

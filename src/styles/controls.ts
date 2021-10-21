@@ -102,9 +102,7 @@ export const useStyles = createUseStyles((theme: Theme) => ({
         right: "0",
         bottom: "0",
         overflow: "auto", // set to hidden, if you only have short popups
-        backgroundColor: "rgba(0,0,0,0.2)",
         zIndex: "1",
-        backdropFilter: "blur(6px)",
         // firefox needs gfx.webrender.all to be true and also layout.css.backdrop-filter.enabled to be true
         '& > *': {
             marginTop: "25%",
@@ -126,7 +124,40 @@ export const useStyles = createUseStyles((theme: Theme) => ({
     spaceBefore: {
         paddingTop: "16px"
     },
+    blurBackgroundLo: {
+        backgroundColor: "rgba(0,0,0,0.2)",
+        backdropFilter: "blur(2px)",
+    },
+    blurBackgroundMi: {
+        backgroundColor: "rgba(0,0,0,0.2)",
+        backdropFilter: "blur(6px)",
+    },
+    blurBackgroundHi: {
+        backgroundColor: "rgba(0,0,0,0.2)",
+        backdropFilter: "blur(12px)",
+    },
+    glassLo: {
+        backgroundColor: "rgba(255, 255, 255, 0.4)",
+        backdropFilter: "blur(2px)",
+    },
+    glassMi: {
+        backgroundColor: "rgba(255, 255, 255, 0.4)",
+        backdropFilter: "blur(6px)",
+    },
+    glassHi: {
+        backgroundColor: "rgba(255, 255, 255, 0.4)",
+        backdropFilter: "blur(12px)",
+    },
     //simple commands
+    blurLo: {
+        filter: "blur(1px)"
+    },
+    blurMi: {
+        filter: "blur(2px)"
+    },
+    blurHi: {
+        filter: "blur(6px)"
+    },
     noDecoration: {
         textDecoration: "none"
     },

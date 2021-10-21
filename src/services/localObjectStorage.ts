@@ -8,7 +8,7 @@ export const get = (key: string) => {
     // not needed, but better for performance
     if (!value) return null
 
-    //to not throw an error if the value is not a valid json -> normal use of localStorage
+    // to not throw an error if the value is not a valid json -> normal use of localStorage
     try {
         return JSON.parse(value)
     } catch (e) {
