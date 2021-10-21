@@ -27,7 +27,7 @@ have fun, and if you have any questions, feel free to contact me (Q & A in this 
 - [ ] login service with tokens for api (coming soon i guess)
 - [ ] date formatter / calculator
 - [ ] competent developer / maintainer (after all it's a template, not a framework, it's not perfect, but it maybe helps someone)
-- [ ] visual beauty
+- [ ] visual beauty (blur effect, and glasseye effect done)
 ## ToDo
 if you have any ideas for new features, please contact me (ideas discussion in this repo or if you know me, you probaly have me on discord)  
 i also try to add those as issues
@@ -38,7 +38,7 @@ i also try to add those as issues
 - [ ] test api
 - [ ] clean up code (about 80% done)
 - [ ] add more documentation
-- [ ] add classes for styling / layouting / visual beauty (jss)
+- [ ] add classes for styling / layouting / visual beauty (jss) (about 20% done)
 - [ ] add stuff for testing stuff
 - [ ] add unicorns
 - [ ] check if gpl is a good license for this project
