@@ -112,11 +112,77 @@ export const useStyles = createUseStyles((theme: Theme) => ({
             backgroundColor: theme.backgroundColor,
         }
     },
+    //simple colors
+    primaryColor: {
+        color: theme.primaryTextColor
+    },
+    secondaryColor: {
+        color: theme.secondaryTextColor
+    },
+    disabledColor: {
+        color: theme.disabledColor
+    },
+    enabledColor: {
+        color: theme.enabledColor
+    },
+    backgroundColor: {
+        color: theme.backgroundColor
+    },
+    lightPrimaryColor: {
+        color: theme.lightPrimaryColor
+    },
+    darkPrimaryColor: {
+        color: theme.darkPrimaryColor
+    },
+    bgPrimaryColor: {
+        backgroundColor: theme.primaryTextColor
+    },
+    bgSecondaryColor: {
+        backgroundColor: theme.secondaryTextColor
+    },
+    bgDisabledColor: {
+        backgroundColor: theme.disabledColor
+    },
+    bgEnabledColor: {
+        backgroundColor: theme.enabledColor
+    },
+    bgBackgroundColor: {
+        backgroundColor: theme.backgroundColor
+    },
+    bgLightPrimaryColor: {
+        backgroundColor: theme.lightPrimaryColor
+    },
+    bgDarkPrimaryColor: {
+        backgroundColor: theme.darkPrimaryColor
+    },
+    borderPrimaryColor: {
+        borderColor: theme.primaryTextColor
+    },
+    borderSecondaryColor: {
+        borderColor: theme.secondaryTextColor
+    },
+    borderDisabledColor: {
+        borderColor: theme.disabledColor
+    },
+    borderEnabledColor: {
+        borderColor: theme.enabledColor
+    },
+    borderBackgroundColor: {
+        borderColor: theme.backgroundColor
+    },
+    borderLightPrimaryColor: {
+        borderColor: theme.lightPrimaryColor
+    },
+    borderDarkPrimaryColor: {
+        borderColor: theme.darkPrimaryColor
+    },
     //complex commands
+    // basicly disabledColor and borderDisabledColor, but easyer to read
     disabled: {
         color: theme.disabledColor + " !important",
         borderColor: theme.disabledColor
     },
+    // basicly enabledColor and borderEnabledColor, but easyer to read
     enabled: {
         color: theme.enabledColor + " !important",
         borderColor: theme.enabledColor
@@ -160,6 +226,24 @@ export const useStyles = createUseStyles((theme: Theme) => ({
     },
     noDecoration: {
         textDecoration: "none"
+    },
+    roundCornersLo: {
+        borderRadius: "4px"
+    },
+    roundCornersMi: {
+        borderRadius: "8px"
+    },
+    roundCornersHi: {
+        borderRadius: "16px"
+    },
+    bold: {
+        fontWeight: "bold"
+    },
+    italic: {
+        fontStyle: "italic"
+    },
+    underline: {
+        textDecoration: "underline"
     },
     fill: {
         height: "100%",
@@ -265,7 +349,7 @@ export const useStyles = createUseStyles((theme: Theme) => ({
         display: "flex",
         flexDirection: "column"
     },
-    //needs to be the last  class with display in it -> otherwise it will be overwritten
+    //needs to be the last class with display in it -> otherwise it will be overwritten
     invisible: {
         display: "none"
     },
@@ -281,6 +365,10 @@ export const useStyles = createUseStyles((theme: Theme) => ({
     },
     wrap: {
         flexWrap: "wrap",
+        boxSizing: "border-box"
+    },
+    wrapReverse: {
+        flexWrap: "wrap-reverse",
         boxSizing: "border-box"
     },
     //custom styling here
