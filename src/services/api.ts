@@ -3,7 +3,6 @@ const headers = {
      'Content-Type': 'application/json'
 }
 
-
 export const list = async (endpoint, options = {}) => {
     const response = await fetch(`${endpoint}${mapToQuery(options)}`, { method: 'GET', headers: headers})
     if (!response.ok) {
