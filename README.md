@@ -26,7 +26,7 @@ have fun, and if you have any questions, feel free to contact me (Q & A in this 
 - [ ] multiple templates
 - [ ] login service with tokens for api (coming soon i guess)
 - [ ] date formatter / calculator
-- [ ] api custom hook
+- [x] [useHooks(🔥).ts](https://usehooks-typescript.com/) (custom stuff was not a good idea -.-)
 - [ ] competent developer / maintainer (after all it's a template, not a framework, it's not perfect, but it maybe helps someone)
 - [ ] visual beauty (blur effect, and glasseye effect done)
 ## ToDo
@@ -43,7 +43,6 @@ i also try to add those as issues
 - [ ] add stuff for testing stuff
 - [ ] add unicorns
 - [ ] check if gpl is a good license for this project
-- [ ] api custom hook
 ## Why?
 Because i think it's stupid to build a website from ground every time you want to build one... this repo is a base with some utilities and components to build a website in a short amount of time.
 ## contribute to this repo
