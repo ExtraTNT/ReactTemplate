@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "https://url-toAPI.domain/",
+    "target": "http://your-api.mydomain.com",
     "changeOrigin": true,
     "logLevel": "debug"
   }

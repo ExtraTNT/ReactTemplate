@@ -19,7 +19,11 @@ export const Page2 = (props) => {
     return <div className={classes.middle}>
             <h1>Page 2</h1>
 
-            <PopupError title={errorPopupTitle} text={errorPopupText} onClick={handleClick} active={errorPopupActive}></PopupError>
+            <PopupError title={errorPopupTitle} text={errorPopupText} onClick={handleClick} active={errorPopupActive}/>
+            {/*
+                you can also use a popup like this
+                {errorPopupActive && <PopupError title={errorPopupTitle} text={errorPopupText} onClick={handleClick} active={true}/>}
+            */}
         </div>
 }
 

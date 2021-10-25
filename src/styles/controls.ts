@@ -112,29 +112,29 @@ export const useStyles = createUseStyles((theme: Theme) => ({
             backgroundColor: theme.backgroundColor,
         }
     },
-    //simple colors
-    primaryColor: {
-        color: theme.primaryTextColor
+    //simple colors (important to overwrite the settings from the app class)
+    textColor: {
+        color: theme.primaryTextColor + " !important"
     },
     secondaryColor: {
-        color: theme.secondaryTextColor
+        color: theme.secondaryTextColor + " !important"
     },
     disabledColor: {
-        color: theme.disabledColor
+        color: theme.disabledColor + " !important"
     },
     enabledColor: {
-        color: theme.enabledColor
+        color: theme.enabledColor + " !important"
     },
     backgroundColor: {
-        color: theme.backgroundColor
+        color: theme.backgroundColor + " !important"
     },
     lightPrimaryColor: {
-        color: theme.lightPrimaryColor
+        color: theme.lightPrimaryColor + " !important"
     },
     darkPrimaryColor: {
-        color: theme.darkPrimaryColor
+        color: theme.darkPrimaryColor + " !important"
     },
-    bgPrimaryColor: {
+    bgTextColor: {
         backgroundColor: theme.primaryTextColor
     },
     bgSecondaryColor: {
@@ -150,12 +150,12 @@ export const useStyles = createUseStyles((theme: Theme) => ({
         backgroundColor: theme.backgroundColor
     },
     bgLightPrimaryColor: {
-        backgroundColor: theme.lightPrimaryColor
+        backgroundColor: theme.lightPrimaryColor 
     },
     bgDarkPrimaryColor: {
         backgroundColor: theme.darkPrimaryColor
     },
-    borderPrimaryColor: {
+    borderTextColor: {
         borderColor: theme.primaryTextColor
     },
     borderSecondaryColor: {
