@@ -47,6 +47,7 @@ export const Page1 = (props) => {
                         <p className={classes.darkPrimaryColor}>{post.body}</p>
                     </div> 
                 })}
+                {!data && <h1 className={classes.bold} >Loading...</h1>}
             </div>
             
             <PopupError title={errorPopupTitle} text={errorPopupMessage} onClick={handleClick} active={errorPopupActive}/>  

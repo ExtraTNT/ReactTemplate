@@ -9,6 +9,7 @@ import t77 from '../themes/t77'
 import arcTheme from '../themes/arc'
 import { Select } from 'grommet/components/Select'
 import { clsj } from '../utils/joinClasses'
+import Config from '../config'
 
 export const ThemeSwitch = (props) => {
 
@@ -21,7 +22,7 @@ export const ThemeSwitch = (props) => {
         'arc': arcTheme
     }
     
-    const [ selectedTheme, setSelectedTheme ] = useState<string>(localStorage.getItem('theme') || 'light')
+    const [ selectedTheme, setSelectedTheme ] = useState<string>(localStorage.getItem('theme') || Config.defaultTheme)
 
     useEffect(() => {
         setThemeContext(themes[selectedTheme])

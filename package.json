@@ -2,9 +2,10 @@
   "name": "website-name",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+
   "scripts": {
-    "dev": "parcel src/static/index.html"
+    "dev": "parcel src/static/index.html",
+    "build": "parcel build src/static/index.html"
   },
   "keywords": [],
   "author": "ExtraTNT",
@@ -27,6 +28,8 @@
     "grommet": "https://github.com/grommet/grommet/tarball/stable",
     "grommet-icons": "^4.5.0",
     "polished": "^4.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-jss": "^10.5.1",
     "react-router": "^5.2.0",

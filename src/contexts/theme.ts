@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext } from 'react'
 import { Theme } from '../themes/index'
 import lightTheme from '../themes/light'
 

@@ -6,6 +6,7 @@ import { Card, CardBody, CardFooter, CardHeader } from 'grommet'
 import { StyledButton } from './StyledButton'
 import { clsj } from '../utils/joinClasses'
 import { Popup } from './Popup'
+import Config from '../config'
 
 interface PopupErrorProps {
     title: string
@@ -21,10 +22,10 @@ export const PopupError = ({title, text, onClick, active}: PopupErrorProps) => {
 
     return <Popup active={active}>
             <Card className={clsj(classes.alignCenter, classes.justifyCenter)}>
-                    <CardHeader pad="small" className={clsj(classes.middle)}><h1>{title}</h1></CardHeader>
-                    {text && <CardBody className={clsj(classes.middle)}><p>{text}</p></CardBody>}
+                    <CardHeader pad="small" className={clsj(classes.middle)}><h1>{title || Config.errorTitle}</h1></CardHeader>
+                    <CardBody className={clsj(classes.middle)}><p>{text || Config.errorMessage}</p></CardBody>
                     <CardFooter pad="small" className={clsj(classes.middle)}>
-                        <StyledButton text="OK" onClick={onClick}></StyledButton>
+                        <StyledButton text={Config.errorAknowledgement} onClick={onClick}></StyledButton>
                     </CardFooter>
             </Card>
   </Popup>

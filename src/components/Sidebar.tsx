@@ -29,11 +29,11 @@ export const Sidebar2 = (props) => {
       </div>
     }
     footer={
-      <ThemeSwitch classNames={isSmall? [classes.invisible] : []}></ThemeSwitch>
+      <ThemeSwitch classNames={isSmall? [classes.invisible] : []}/>
     }
   >
     {!isSmall ?
-      <Navigation></Navigation>
+      <Navigation/>
       :null}
   </Sidebar>
 }
