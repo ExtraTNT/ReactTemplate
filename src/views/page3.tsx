@@ -1,4 +1,5 @@
 import React from 'react'
+import { memo } from 'react'
 import useControlStyles from '../styles/controls'
 import { useTheme } from 'react-jss'
 import { PopupError } from '../components/PopupError'
@@ -27,4 +28,4 @@ export const Page3 = (props) => {
         </div>
 }
 
-export default Page3
+export default memo(Page3)

@@ -104,6 +104,7 @@ export const useStyles = createUseStyles((theme: Theme) => ({
         overflow: "auto", // set to hidden, if you only have short popups
         zIndex: "1",
         // firefox needs gfx.webrender.all to be true and also layout.css.backdrop-filter.enabled to be true
+        // it does not break the popup if it is not set -> but does not look that nice
         '& > *': {
             marginTop: "25%",
             marginBottom: "25%",

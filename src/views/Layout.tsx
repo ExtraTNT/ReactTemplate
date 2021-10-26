@@ -1,4 +1,5 @@
 import React from 'react'
+import { memo } from 'react'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import Sidebar from '../components/Sidebar'
@@ -25,4 +26,4 @@ export const Layout = (props) => {
     </div>
 }
 
-export default Layout
+export default memo(Layout)

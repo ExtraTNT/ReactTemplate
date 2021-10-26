@@ -1,4 +1,5 @@
 import React from 'react'
+import { memo } from 'react'
 import { useHistory } from "react-router-dom"
 import useControlStyles from '../styles/controls'
 import { useTheme } from 'react-jss'
@@ -13,4 +14,4 @@ export const Footer = (props) => {
     </div>
 }
 
-export default Footer
+export default memo(Footer)

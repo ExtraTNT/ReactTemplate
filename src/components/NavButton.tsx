@@ -1,4 +1,5 @@
 import React from 'react'
+import { memo } from 'react'
 import { Link } from 'react-router-dom'
 import useControlStyles from '../styles/controls'
 import { useTheme } from 'react-jss'
@@ -16,4 +17,4 @@ export const NavButton = (props) => {
     </Link>
 }
 
-export default NavButton
+export default memo(NavButton)

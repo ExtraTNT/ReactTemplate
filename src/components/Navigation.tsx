@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { memo } from 'react'
 import { useTheme } from 'react-jss'
 import useControlStyles from '../styles/controls'
 import { clsj } from '../utils/joinClasses'
@@ -17,4 +18,4 @@ export const Navigation = (props) => {
         </nav>
 }
 
-export default Navigation
+export default memo(Navigation)

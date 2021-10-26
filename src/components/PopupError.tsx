@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react'
+import { memo } from 'react'
 import useControlStyles from '../styles/controls'
 import { useTheme } from 'react-jss'
 import { Card, CardBody, CardFooter, CardHeader } from 'grommet'
@@ -29,4 +30,4 @@ export const PopupError = ({title, text, onClick, active}: PopupErrorProps) => {
   </Popup>
 }
 
-export default PopupError
+export default memo(PopupError)

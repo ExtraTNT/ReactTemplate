@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react'
+import { memo } from 'react'
 import useControlStyles from '../styles/controls'
 import { useTheme } from 'react-jss'
 import { clsj } from '../utils/joinClasses'
@@ -17,4 +18,4 @@ export const Popup = ({children, active}: PopupProps) => {
   </div>
 }
 
-export default Popup
+export default memo(Popup)

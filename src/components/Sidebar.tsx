@@ -1,5 +1,6 @@
 import { Sidebar } from 'grommet/components/Sidebar'
 import React, { useState } from 'react'
+import { memo } from 'react'
 import { useTheme } from 'react-jss'
 import useControlStyles from '../styles/controls'
 import { ThemeSwitch } from './ThemeSwitch'
@@ -37,4 +38,4 @@ export const Sidebar2 = (props) => {
   </Sidebar>
 }
 
-export default Sidebar2
+export default memo(Sidebar2)

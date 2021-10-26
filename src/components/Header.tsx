@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom"
 import { useTheme } from 'react-jss'
 import useControlStyles from '../styles/controls'
 import { clsj } from '../utils/joinClasses'
+import { memo } from 'react'
 
 export const Header = (props) => {
     const history = useHistory()
@@ -20,4 +21,4 @@ export const Header = (props) => {
     </div>
 }
 
-export default Header
+export default memo(Header)

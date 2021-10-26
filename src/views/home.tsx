@@ -1,4 +1,5 @@
 import React from 'react'
+import { memo } from 'react'
 import useControlStyles from '../styles/controls'
 import { useTheme } from 'react-jss'
 
@@ -11,4 +12,4 @@ export const Home = (props) => {
         </div>
 }
 
-export default Home
+export default memo(Home)
