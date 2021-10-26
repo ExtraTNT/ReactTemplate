@@ -54,3 +54,5 @@ i need to check if gpl v3 is good for this project or if a other license is bett
  - install a new nodejs version, because the default one in your (apt) repo does maybe not work
  - npm clean-install is handy, if you fuck up
  - echo fs.inotify.max_user_watches=65536 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p helps if you have "No space left on device"
+ ## Other Stuff
+ gif from: https://files.gamebanana.com/img/ico/sprays/5db93d0aac35e.gif licensed under [cc-by-sa 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
