@@ -4,7 +4,7 @@ import { useTheme } from 'react-jss'
 import useControlStyles from '../styles/controls'
 import { clsj } from '../utils/joinClasses'
 import { memo } from 'react'
-import Config from '../config'
+import config from '../config'
 
 export const Header = (props) => {
     const history = useHistory()
@@ -12,7 +12,7 @@ export const Header = (props) => {
     const classes = useControlStyles({ ...props, theme })
     return <div className={clsj(classes.flexRow, classes.justifySpageBetween)}>
         <h1 className={clsj(classes.title)} onClick={() => {history.push("/")}}>
-            {Config.title}
+            {config.title}
         </h1>
         <div className={clsj(classes.flexColumn)}>
             <div className={clsj(classes.alignEnd)}>
