@@ -8,13 +8,13 @@ import { Page1 } from '../views/page1'
 import { Page2 } from '../views/page2'
 import { Page3 } from '../views/page3'
 import { Home } from '../views/home'
-import Config from '../config'
+import config from '../config'
 
 export const App = (props) => {
     return <BrowserRouter>
         <Route path="/">
             <Helmet>
-                <title>{Config.title}</title>
+                <title>{config.title}</title>
             </Helmet>
             <Layout >
                 <Switch>
